@@ -43,6 +43,8 @@ class _HomeState extends State<Home> {
               ),
               child: CheckboxListTile(
                 controlAffinity: ListTileControlAffinity.leading,
+                activeColor: Colors.red,
+                checkColor: Colors.white,
                 title: const Text("CheckBox"),
                 subtitle: const Text("Subtitle"),
                 value: isChecked2,
